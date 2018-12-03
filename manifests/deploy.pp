@@ -1,6 +1,6 @@
 define tomcat::deploy(
  $deploy_path   =   $::tomcat::deploy_path,
- $deploy_url,
+ $deploy_url
  
 ){
     file{"${deploy_path}/${name}.war":
